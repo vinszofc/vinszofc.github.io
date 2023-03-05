@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 2rem;
+  /* border: solid; */
+  background-color: rgb(250, 253, 255);
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(250px, 800px));
+  text-align: justify;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+iframe {
+  aspect-ratio: 16 / 9;
+  display: block;
+  width: 100%;
+  object-fit: fill;
+}
+
+.main {
+  /* border: solid 0.9px; */
+  display: grid;
+  gap: 1rem;
+  /* border-radius: 1rem; */
+  /* padding: 1.2rem; */
+}
+.header {
+  /* border: solid; */
+  display: grid;
+  gap: 1rem;
+}
+
+.header > h1 {
+  text-align: start;
+}
+
+.ul {
+  display: grid;
+  gap: 1rem;
+}
+
+.ul > .i > a:hover {
+  color: cadetblue;
+}
+.section {
+  /* border: solid; */
+  display: grid;
+  gap: 1rem;
+}
+
+#Introdution {
+  text-transform: uppercase;
+  border-bottom: solid 0.7px;
+}
+.article {
+  /* border: solid; */
+  display: grid;
+  gap: 1rem;
+}
+.footer {
+  margin: 1rem;
+  display: grid;
+  justify-content: center;
+  font-size: small;
+}
+
+.button > a {
+  padding: 1rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(21, 133, 59);
+  color: aliceblue;
+}
+
+.button >a:hover {
+  background-color: rgb(22, 143, 77);
+}
