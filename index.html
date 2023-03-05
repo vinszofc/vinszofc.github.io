@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap"
+    rel="stylesheet">
+  <title>Home</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    padding: 0 0rem;
+    background-color: rgb(247, 248, 248);
+  }
+
+  /* #root {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 700px));
+    text-align: justify;
+    justify-content: center;
+  } */
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(250px, 700px));
+    text-align: justify;
+    justify-content: center;
+  }
+
+  header {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: black;
+    color: rgb(251, 253, 255);
+    margin-bottom: 2rem;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+    background-color: rgb(255, 255, 255);
+  }
+
+  a {
+    display: inline;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: end;
+    color: rgb(24, 24, 24);
+    background-color: rgb(212, 226, 255);
+  }
+
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(69, 100, 161);
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+</style>
+
+<body>
+  <div id="root">
+    <header>
+      <!-- <img src="" alt=""> -->
+      <h1>Atividades e Trabalhos com HTML CSS</h1>
+    </header>
+    <main>
+      <section>
+        <article>
+          <img src="" alt="">
+          <h2>Aulas</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum eos at architecto vitae, commodi
+            doloremque fuga, praesentium sunt consequatur fugit obcaecati consequuntur expedita sint, aliquam temporibus
+            ea exercitationem nisi?</p>
+          <a href="./aulas/index.html">Acessar</a>
+        </article>
+      </section>
+      <section>
+        <article>
+          <img src="" alt="">
+          <h2>Trabalhos</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto delectus mollitia molestias reprehenderit
+            possimus rerum incidunt, sequi earum qui odit quod quidem provident nisi perferendis. Et, dignissimos quasi.
+            Velit, vitae!</p>
+          <a href="./trabalho/index.html">Acessar</a>
+        </article>
+      </section>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+
+</html>
