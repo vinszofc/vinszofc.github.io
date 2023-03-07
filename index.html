@@ -35,6 +35,9 @@
 
   main {
     display: grid;
+    gap: 2rem;
+    margin: 0 1rem;
+    padding-bottom:2rem ;
     grid-template-columns: repeat(1, minmax(250px, 700px));
     text-align: justify;
     justify-content: center;
@@ -44,23 +47,26 @@
     text-align: center;
     width: 100%;
     padding: 2rem;
-    background-color: black;
+    background-color: rgb(6, 2, 46);
     color: rgb(251, 253, 255);
     margin-bottom: 2rem;
   }
 
-  article {
+  section {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
     border-radius: 1rem;
     padding: 2rem;
-    margin-bottom: 2rem;
-    gap: 1rem;
     background-color: rgb(255, 255, 255);
+  }
+  article {
+    display: grid;
+    gap: 1rem;
   }
 
   a {
-    display: inline;
+    display: block;
     padding: 1rem;
     text-decoration: none;
     text-align: end;
@@ -70,7 +76,7 @@
 
   a:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(69, 100, 161);
+    background-color: rgb(33, 69, 187);
   }
 
   h2 {
@@ -105,8 +111,10 @@
           <a href="./trabalho/index.html">Acessar</a>
         </article>
       </section>
+      <footer class="footer">
+        <p style="text-align: center; font-size: small;">Copyrigth <span>&copy;</span> Vinicius Mende de Souza - Todos os direitosreservados</p>
+      </footer>
     </main>
-    <footer></footer>
   </div>
 </body>
 

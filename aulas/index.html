@@ -20,16 +20,18 @@
       font-family: "Noto Sans", sans-serif;
     }
 
-    body {
+       body {
       height: 100vh;
       display: grid;
       grid-template-columns: minmax(250px, 900px);
       justify-content: center;
       align-items: center;
     }
-
+    
     div {
+      margin: 2rem;
       display: grid;
+      grid-template-columns: minmax(100px, 500px);
       gap: 1rem;
       text-align: center;
       justify-content: center;
@@ -41,14 +43,18 @@
     blockquote {
       border-left: solid 2px red;
     }
-    div>a {
+    div > a {
       display: block;
       text-decoration: none;
       text-align: center;
       padding: 0.5rem;
       color: aliceblue;
-      background-color: rgb(33, 69, 187);
+      background-color: rgb(0, 0, 0);
     }
+    div > a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 69, 187);
+  }
   </style>
 </head>
 
